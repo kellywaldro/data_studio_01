@@ -16,7 +16,8 @@ Aside from that, I do miss French pharmacies, for the following reasons:
 1. **no chains** you can't have pharmacy chains in France! Or it's so difficult that I have yet to come across an instance where there is one. You also have to be a pharmacist to own one. That's regulated by [these](https://www.ordre.pharmacien.fr/) people.
 
 2. Where you can sell medical products is more regulated
-| e.g. the **only** place you can buy aspirin is at a pharmacy 
+
+    e.g. the **only** place you can buy aspirin is at a pharmacy 
 
 3. Green crosses 
 
@@ -30,13 +31,24 @@ Aside from that, I do miss French pharmacies, for the following reasons:
 
 - Spending on pharmaceutical products 
 - Pharmacists per capita 
-| Both datasets for this are linked in the OECD doc 
+    Both datasets for this are linked in the OECD doc 
 
 - [List of all pharmacies in Paris] (https://118-418.pharmaciedegarde.org/pharmacie/75-Paris.html)
 
 - Trying to use the Google Maps API to get NYC pharmacies 
-| Since they are all private (and less regulated?) I have not been able to find an exhaustive list 
+    Since they are all private (and less regulated?) I have not been able to find an exhaustive list 
 
 ## What this piece should be 
 ### Ideas from mentor meeting: 
+
+- Density map around me: how does accessing a pharmacy in my neighbourhood in NYC compare to areas in Paris?
+    Could make this fun and make it look like a dark map with bright green lights 
+
+- Which countries use different symbols for pharmacies 
+
+- Price comparison? 
+
+- Make this "blogpost" style and compare different things: accessibility, price, inncorporate a narrative as to why these things are different 
+
+
 
