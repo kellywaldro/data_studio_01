@@ -37,6 +37,7 @@ Aside from that, I do miss French pharmacies, for the following reasons:
 
 - Trying to use the Google Maps API to get NYC pharmacies 
     Since they are all private (and less regulated?) I have not been able to find an exhaustive list 
+    If I can get a json of pharmacies I will manually compile a list of addresses
 
 ## What this piece should be 
 ### Ideas from mentor meeting: 
