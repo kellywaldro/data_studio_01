@@ -33,7 +33,7 @@ Aside from that, I do miss French pharmacies, for the following reasons:
 - Pharmacists per capita 
     Both datasets for this are linked in the OECD doc 
 
-- [List of all pharmacies in Paris] (https://118-418.pharmaciedegarde.org/pharmacie/75-Paris.html)
+- [List of all pharmacies in Paris](https://118-418.pharmaciedegarde.org/pharmacie/75-Paris.html)
 
 - Trying to use the Google Maps API to get NYC pharmacies 
     Since they are all private (and less regulated?) I have not been able to find an exhaustive list 
