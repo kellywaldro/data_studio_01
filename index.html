@@ -1,87 +1,143 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="stylesheet" href="./resources/ol.css">
-        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
-        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
-        <link rel="stylesheet" href="./resources/qgis2web.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Pharmacies</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<style>
-.search-layer {
-  top: 65px;
-  left: .5em;
-}
-.ol-touch .search-layer {
-  top: 80px;
-}
-​
-.container {
-    /* Remove the line below if you want a wider page */
-    max-width: 700px !important;
-    font-family: Palatino;
-}
-</style>
-        <style>
-        html, body {
-            background-color: #ffffff;
-        }
-        .ol-control button {
-            background-color: #f8f8f8 !important;
-            color: #000000 !important;
-            border-radius: 0px !important;
-        }
-​
-        .ol-scale-line {
-            background: none !important;
-        }
-        .ol-scale-line-inner {
-            border: 2px solid #f8f8f8 !important;
-            border-top: none !important;
-            background: rgba(255, 255, 255, 0.5) !important;
-            color: black !important;
-        }
-        </style>
-        <style>
-        html, body, #map {
-            width: 100%;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-        }
-        </style>
-        <title></title>
-    </head>
-    <body>
-​
-      <section class="section">
-    <div class="container">
-      <h1 class="title">
-        A trip to the pharmacie
-      </h1>
-      <p class="subtitle">
-        SUBHEAD
-      </p>
 
-      <div class="container">
-        <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/kwaldron/cldnry2c600el01o60ql5xsde.html?title=false&access_token=pk.eyJ1Ijoia3dhbGRyb24iLCJhIjoiY2xkbnF4ZjlxMDBtZjN2cHJsYzR0N3M5MCJ9.i0ML2GPOcH-tOOgugnk9nA&zoomwheel=false#12.47/48.85913/2.33216" title="Monochrome" style="border:none;"></iframe>title:: pharmacies
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="./resources/ol.css">
+  <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+  <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+  <link rel="stylesheet" href="./resources/qgis2web.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pharmacies</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <style>
+    .search-layer {
+      top: 65px;
+      left: .5em;
+    }
+
+    .ol-touch .search-layer {
+      top: 80px;
+    }
+
+    ​ .container {
+      /* Remove the line below if you want a wider page */
+      max-width: 700px !important;
+      font-family: Palatino;
+    }
+  </style>
+  <style>
+    html,
+    body {
+      background-color: #ffffff;
+    }
+
+    .ol-control button {
+      background-color: #f8f8f8 !important;
+      color: #000000 !important;
+      border-radius: 0px !important;
+    }
+
+    ​ .ol-scale-line {
+      background: none !important;
+    }
+
+    .ol-scale-line-inner {
+      border: 2px solid #f8f8f8 !important;
+      border-top: none !important;
+      background: rgba(255, 255, 255, 0.5) !important;
+      color: black !important;
+    }
+  </style>
+  <style>
+    html,
+    body,
+    #map {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <title></title>
+</head>
+
+<body>
+ <section class="hero">
+        <div class="hero-body content">
+            <p class="title has-text-centered">
+                A trip to the pharmacy.
+            </p>
+            </div>
+        </div>
+    </section>
+  ​
+  <section class="section">
+    <div class="columns is-multiline content">
+      <div class="column is-one-third">
       </div>
-​
-      <div class="content">
-        <p><i>Kelly WALDRON | FEB 02 2023 | <a href="https://github.com/kellywaldro/data_studio_01"><u>Github</u></a></i></p>
-        <p></p>
-​
-        <p></p>
-​
-        <p></p>
-    
+      <div class="column is-one-third">
+        <p>The pharmacy in France is ubiquitous. Small, independent and identifiable by a bright LED green cross. It is in every way a window onto French culture: the prescriptions that are almost entirely covered by the public healthcare system, the unscented skincare products, and the opening times which read "fermé le Dimanche" (closed on Sunday).<br><br>It hadn't occurred to me just how many there were until I was standing at the view point on top of l'Arc de Triomphe in Paris last month and noticed the bright green lights scattered across the city.</p>
+        <iframe width='100%' height='400px'
+          src="https://api.mapbox.com/styles/v1/kwaldron/cldnry2c600el01o60ql5xsde.html?title=false&access_token=pk.eyJ1Ijoia3dhbGRyb24iLCJhIjoiY2xkbnF4ZjlxMDBtZjN2cHJsYzR0N3M5MCJ9.i0ML2GPOcH-tOOgugnk9nA&zoomwheel=false#12.47/48.85913/2.33216"
+          title="Monochrome" style="border:none;"></iframe><p>Pharmacies in Paris</p>
+     
+      <figure class="image is-2by4">
+        <img src="./Screen Shot 2023-02-03 at 4.09.46 PM.png">
+      </figure>
+ </div>
+      <div class="column is-one-third">
+
+        <div>
+
+        </div>
       </div>
-  </section>    
-    </body>
-</html>
+      <!-- 
+    <div class="columns is-multiline content">
+
+      <div class="column is-one-third">
+        <div class="container">
+          <h1 class="title">
+            A trip to the pharmacy
+          </h1>
+          <p class="subtitle">
+            SUBHEAD
+          </p>
+
+          <div class="container">
+          </div>
+          <div class="column is-one-third">
+            <iframe width='100%' height='400px'
+              src="https://api.mapbox.com/styles/v1/kwaldron/cldnry2c600el01o60ql5xsde.html?title=false&access_token=pk.eyJ1Ijoia3dhbGRyb24iLCJhIjoiY2xkbnF4ZjlxMDBtZjN2cHJsYzR0N3M5MCJ9.i0ML2GPOcH-tOOgugnk9nA&zoomwheel=false#12.47/48.85913/2.33216"
+              title="Monochrome" style="border:none;"></iframe>title:: pharmacies
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div>
+            <figure class="image is-2by3">
+              <img src="./cabinet_prices.png">
+            </figure>
+            <br>
+          </div>
+          ​
+        </div>
+        <div class="content">
+          <p><i>Kelly WALDRON | FEB 02 2023 | <a
+                href="https://github.com/kellywaldro/data_studio_01"><u>Github</u></a></i></p>
+          <p></p>
+          ​
+          <p></p>
+          ​
+          <p></p>
+
+        </div>
+      </div>
+  </section>
+</body>
+</div>
+
+</html> -->
